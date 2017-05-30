@@ -4,9 +4,6 @@
 
 Inspired by Yamaha's Tenori-on, this project is a music sequencer built using JavaScript and CSS. This audio step sequencer will allow users to add notes to a musical sequence.
 
-
-It will be created using JavaScript, jQuery, HTML/CSS, and Howler.js.
-
 ## Functionality & MVP
 
 With this music sequencer, users will be able to:
@@ -38,7 +35,7 @@ In addition to the Webpack entry file, there will be two scripts involved in thi
 
 `board.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
 
-`audio.js`: this script will handle the logic for toggling squares and playing audio.
+`main.js`: this script will handle the logic for toggling squares and playing audio.
 
 ## Implementation Timeline
 
