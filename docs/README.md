@@ -24,7 +24,7 @@ In addition, this project will include:
 
 This app will consist of a single screen with a grid of notes, app controls, and links to my Github and LinkedIn. The loop will run in the background upon initialization, and users will click on individual squares or click and drag over multiple squares to add notes to the loop.
 
-![wireframes](docs/wireframes/main.png)
+![wireframes](wireframes/main.png)
 
 ## Architecture and Technologies
 
