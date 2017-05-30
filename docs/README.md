@@ -33,7 +33,7 @@ This project will be implemented using the following technologies:
 
 In addition to the Webpack entry file, there will be two scripts involved in this project:
 
-`board.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
+`view.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
 
 `main.js`: this script will handle the logic for toggling squares and playing audio.
 
