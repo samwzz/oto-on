@@ -42,10 +42,21 @@ li {
   float: left;
   width: 34px;
   height: 34px;
-  border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: #00bfff;
   cursor: pointer;
+}
+
+.note-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: black;
+  cursor: pointer;
+  opacity: 0.95;
 }
 
 .active {
@@ -53,15 +64,32 @@ li {
   box-shadow: 0 0 5px #fff;
 }
 
-#mute-button {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  cursor: pointer;
+.playing {
+  background: red;
 }
-#reset-button {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
+
+.app-controls {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.app-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  background-color: #00bfff;
   cursor: pointer;
+  // opacity: .9;
+}
+
+.app-button:hover {
+  color: #00bfff;
+  background-color: white;
 }
