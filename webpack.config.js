@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: './lib/js/main.jsx',
+  entry: './lib/js/main.js',
   output: {
-    filename: './bundle.js',
+    filename: './lib/js/bundle.js',
   },
   devtool: 'source-map',
   resolve: {
