@@ -123,4 +123,10 @@ footer div {
 
 footer i {
   color: white;
+  opacity: .25;
+  transition: opacity 0.2s;
+}
+
+footer i:hover {
+  opacity: 1;
 }
