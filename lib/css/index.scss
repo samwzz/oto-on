@@ -24,6 +24,7 @@ body {
   text-align: center;
   font-weight: bold;
   background-image: url("../../assets/images/bg.jpg");
+  background-size: contain;
 }
 
 h1 {
@@ -59,13 +60,13 @@ li {
   opacity: 0.95;
 }
 
-.active {
-  background: white;
-  box-shadow: 0 0 5px #fff;
+.playing {
+  background: #00ff40;
 }
 
-.playing {
-  background: red;
+.active {
+  background: #fff;
+  box-shadow: 0 0 5px #fff;
 }
 
 .app-controls {
