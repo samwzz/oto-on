@@ -27,25 +27,24 @@ This app will consist of a single screen with a grid of notes, app controls, and
 
 This project will be implemented using the following technologies:
 
-* Vanilla JavaScript and jQuery for overall structure and logic
-* Howler.js audio library to sequence and play sounds
+* Vanilla JavaScript for overall structure and logic
 * Webpack to bundle and serve various scripts
 
 In addition to the Webpack entry file, there will be two scripts involved in this project:
 
-`view.js`: this script will handle the logic for creating and updating the necessary `Easel.js` elements and rendering them to the DOM.
+`view.js`: this script will handle the logic for creating html and audio elements and rendering them to the DOM.
 
 `main.js`: this script will handle the logic for toggling squares and playing audio.
 
 ## Implementation Timeline
 
 **Day 1**:
-- Setup all necessary Node modules, webpack, and `Easel.js`.
+- Setup all necessary Node modules and webpack
 - Create `webpack.config.js` and `package.json`.
 
 **Day 2**:
-- Learn `Easel.js` and build board.
-- Begin learning `Howler.js` library.
+- Build board.
+- Begin learning about HTML audio.
 
 **Day 3**:
 - Create the logic for adding notes and looping.  

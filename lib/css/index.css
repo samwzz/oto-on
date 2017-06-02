@@ -9,6 +9,10 @@ html, body, figure, ul, li, h1 {
   background: transparent;
 }
 
+html {
+  height: 100%;
+}
+
 ul {
   list-style: none;
 }
@@ -100,4 +104,23 @@ li {
 .app-button:hover {
   color: #2a3132;
   background-color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  right: 5px;
+  height: 100%;
+  font-size: 48px;
+}
+
+footer div {
+  height: 50px;
+  width: 50px;
+}
+
+footer i {
+  color: white;
 }
