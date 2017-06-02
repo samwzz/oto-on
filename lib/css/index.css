@@ -92,12 +92,12 @@ li {
   height: 50px;
   width: 50px;
   margin: 10px;
-  background-color: #011a27;
+  background-color: #2a3132;
   cursor: pointer;
   // opacity: .9;
 }
 
 .app-button:hover {
-  color: #00bfff;
+  color: #2a3132;
   background-color: white;
 }
