@@ -54,6 +54,14 @@ li {
   cursor: pointer;
 }
 
+.playing.active {
+  box-shadow: 0px 0px 10px 3px #00ff40;
+  border-radius: 100%;
+  opacity: 1;
+  transform: scale(3);
+  transition: all 0.4s;
+}
+
 .note-container {
   display: flex;
   justify-content: center;
@@ -73,14 +81,6 @@ li {
 
 .playing {
   background: #00ff40;
-}
-
-.pulse {
-  box-shadow: 0px 0px 10px 3px #00ff40;
-  border-radius: 100%;
-  opacity: .25;
-  transform: scale(3);
-  transition: all 0.4s;
 }
 
 .app-controls {
