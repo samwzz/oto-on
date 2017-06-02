@@ -76,8 +76,11 @@ li {
 }
 
 .pulse {
-  background: #ff4000;
-  box-shadow: 0 0 20px #00ff40;
+  box-shadow: 0px 0px 10px 3px #00ff40;
+  border-radius: 100%;
+  opacity: .25;
+  transform: scale(3);
+  transition: all 0.4s;
 }
 
 .app-controls {
