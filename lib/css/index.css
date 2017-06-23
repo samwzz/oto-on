@@ -111,22 +111,22 @@ li {
 
 footer {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
+  justify-content: center;
+  align-items: center;
   font-size: 48px;
+  position: relative;
+  top: 10px;
 }
 
 footer div {
   height: 50px;
   width: 50px;
+  margin: 5px;
 }
 
 footer i {
   color: white;
-  opacity: .25;
+  opacity: .5;
   transition: opacity 0.2s;
 }
 
