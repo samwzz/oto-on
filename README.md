@@ -4,7 +4,7 @@
 
 [github]: https://samwzz.github.io/oto-on/
 
-Inspired by Yamaha's Tenori-on, Oto-on is a music sequencer built using JavaScript and CSS. This audio step sequencer will allow users to add notes to a musical sequence.
+Oto-on is a music sequencer built using JavaScript and CSS. This audio step sequencer will allow users to create a visual music composition.
 
 ![screenshot](docs/images/oto-on-ss.png)
 
@@ -12,13 +12,13 @@ Inspired by Yamaha's Tenori-on, Oto-on is a music sequencer built using JavaScri
 
 Oto-on utilizes the following technologies:
 
-* Vanilla JavaScript for overall structure and logic, no jQuery or external libraries
-* HTML/CSS for audio and visual effects
+* Vanilla JavaScript for overall structure and logic
+* HTML/CSS for audio and animations
 * Webpack to bundle and serve various scripts
 
 ## How to Play
 
-The loop will run in the background upon initialization,indicated by the moving bar. Users can click on individual squares or click and drag over multiple squares to add notes to the loop. Be creative!
+The audio loop will run in the background upon initialization, indicated by the moving bar. Users can click on individual squares or click and drag over multiple squares to add notes to the loop. Be creative!
 (Users can mute the sound and reset the board through the app controls near the bottom.)
 
 ![gif](docs/images/oto-on.gif)
