@@ -71,7 +71,7 @@ li {
   height: 40px;
   background: black;
   cursor: pointer;
-  opacity: 0.95;
+  opacity: 1;
 }
 
 .active {
