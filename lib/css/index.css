@@ -34,15 +34,24 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #00bfff;
   font-size: 36px;
-  margin: 30px;
+  margin-top: 30px;
+}
+
+.directions {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  width: 500px;
 }
 
 ul {
-  margin: 30px auto;
+  margin: 15px auto;
   width: 640px;
-  border: 5px solid black;
 }
 
 li {
@@ -77,6 +86,7 @@ li {
 .active {
   background: #00bfff;
   box-shadow: 0 0 5px #00bfff;
+  border-radius: 100%;
 }
 
 .playing {
@@ -109,27 +119,38 @@ li {
   background-color: white;
 }
 
-footer {
+.links {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 48px;
+  font-size: 36px;
   position: relative;
   top: 10px;
 }
 
-footer div {
-  height: 50px;
-  width: 50px;
+.links div {
+  height: 36px;
+  width: 36px;
   margin: 5px;
 }
 
-footer i {
+.links i {
   color: white;
   opacity: .5;
   transition: opacity 0.2s;
 }
 
-footer i:hover {
+.links i:hover {
   opacity: 1;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
 }
